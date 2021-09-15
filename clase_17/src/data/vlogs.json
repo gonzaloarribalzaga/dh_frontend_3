@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "video loco",
+    "src": "http://techslides.com/demos/sample-videos/small.mp4"
+  },
+  {
+    "id": 2,
+    "title": "chivo de google",
+    "src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+  },
+  {
+    "id": 3,
+    "title": "hombre es mordido por tortuga",
+    "src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
+  }
+]
