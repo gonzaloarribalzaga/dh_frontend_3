@@ -18,7 +18,9 @@ function Main() {
 
       <Route path="/main/vlog/:id?" component={Vlog} />
       <Route path="/main/blog/:id?">
-        {(routeProps) => <Blog color={"red"} {...routeProps} />}
+        {(props) => {
+          return <Blog {...props} />;
+        }}
       </Route>
     </div>
   );

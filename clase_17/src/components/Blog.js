@@ -1,8 +1,13 @@
-import { useParams, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import blogs from "../data/blogs.json";
 
 function Blog(props) {
-  let { id } = props.match.params;
+  let id = null;
+
+  // solo seteo el id si params existe dentro del objeto match
+  if (props.match?.params) {
+    id = props.match.params.id;
+  }
 
   let blog = null;
 
