@@ -17,11 +17,10 @@ function Main() {
       </ul>
 
       <Route path="/main/vlog/:id?" component={Vlog} />
-      <Route path="/main/blog/:id?">
-        {(props) => {
-          return <Blog {...props} />;
-        }}
-      </Route>
+      <Route
+        path="/main/blog/:id?"
+        render={(props) => <Blog color="white" {...props} />}
+      />
     </div>
   );
 }

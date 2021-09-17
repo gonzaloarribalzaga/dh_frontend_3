@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-3";
 
-function NavBar(props) {
-  console.log("props", props);
+function NavBar() {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <div
@@ -16,8 +15,6 @@ function NavBar(props) {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/main">Main</Link>
-        <Link to="/faq">Faq</Link>
-        <Link to="/profile">Profile</Link>
         <Link to="/article/127">Article 127</Link>
         <Link to="/article/128">Article 128</Link>
       </div>
