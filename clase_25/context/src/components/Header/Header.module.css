@@ -1,0 +1,45 @@
+.header {
+  position: relative;
+  top: 0;
+  background-color: #000;
+  color: white;
+  margin: 0;
+}
+
+.container {
+  max-width: 1408px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+
+.title {
+  margin: 0;
+}
+
+.navBar {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-left: 25px;
+}
+
+.userBar {
+  display: flex;
+  align-content: center;
+  justify-self: flex-end;
+  margin-left: auto;
+}
+
+.link {
+  padding: 0;
+  margin: 5px 15px;
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  height: 100%;
+  font-size: 16px;
+  line-height: 16px;
+}

@@ -1,0 +1,10 @@
+.mainContainer {
+  background-color: white;
+  height: 100vh;
+  color: black;
+}
+
+.pageContainer {
+  margin: 0 auto;
+  max-width: 1408px;
+}

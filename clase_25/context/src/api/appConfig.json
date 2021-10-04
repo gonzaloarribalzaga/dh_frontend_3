@@ -1,0 +1,20 @@
+{
+  "themes": {
+    "teal": {
+      "mainColor": "teal",
+      "textColor": "#fff"
+    },
+    "salmon": {
+      "mainColor": "salmon",
+      "textColor": "rgba(242,244,246,.9)"
+    }
+  },
+  "translations": {
+    "en": {
+      "REPLY": "Reply"
+    },
+    "es": {
+      "REPLY": "Responder"
+    }
+  }
+}

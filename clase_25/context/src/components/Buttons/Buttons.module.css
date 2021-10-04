@@ -1,0 +1,36 @@
+.button {
+  display: flex;
+  background-color: transparent;
+  /* border: 2px solid #3caaf3;
+  color: #3caaf3; */
+  border: 2px solid black;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.count {
+  font-size: 18px;
+}
+
+.iconButton {
+  background-color: transparent;
+  border: 0px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.buttonContainer {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}

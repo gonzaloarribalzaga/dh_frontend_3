@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: white;
+  margin: 50px;
+  padding: 10px 100px;
+  border: 2px solid #ccc;
+}
+
+.avatarContainer {
+  display: flex;
+  padding: 10px;
+}
+
+.messageContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.author {
+  flex: 1;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+}
+
+.message {
+  flex: 3;
+  font-size: 16px;
+  color: dimgray;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 0;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.likeButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
